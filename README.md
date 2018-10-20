@@ -1,2 +1,2 @@
 # infoplaner
-react web app with firebase
+Simple React web app with firebase as realtime database 

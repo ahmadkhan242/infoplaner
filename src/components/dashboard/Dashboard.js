@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import { NavLink } from 'react-router-dom'
 import Notifications from './Notifications'
 import ProjectList from '../projects/ProjectList'
+import { connect } from 'react-redux'
 
 
 const Dashboard = () => {
@@ -19,4 +20,10 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard
+const mapStateToProps = (state) => {
+    return {
+        projects: state.project.projects
+    }
+
+}
+export default connect()(Dashboard)

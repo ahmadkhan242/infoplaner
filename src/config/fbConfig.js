@@ -4,12 +4,12 @@ import 'firebase/auth'
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyAB-4zOwLlkczFdA5ilUtUrgSmozmUv3Po",
-  authDomain: "newinfoplaner.firebaseapp.com",
-  databaseURL: "https://newinfoplaner.firebaseio.com",
-  projectId: "newinfoplaner",
+  apiKey: "API_KEY",
+  authDomain: "AUTH_DOMAIN",
+  databaseURL: "DATABASE_URL",
+  projectId: "ID",
   storageBucket: "",
-  messagingSenderId: "410844463984"
+  messagingSenderId: "M_ID"
 };
 
   firebase.initializeApp(config);
